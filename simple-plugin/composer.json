@@ -1,0 +1,29 @@
+{
+    "name": "nexusphp/simple-plugin",
+    "description": "Simple plugin for NexusPHP",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "NexusPHP",
+            "email": "info@nexusphp.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NexusPlugin\\SimplePlugin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NexusPlugin\\SimplePlugin\\SimplePluginServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
