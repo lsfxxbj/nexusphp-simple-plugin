@@ -22,6 +22,11 @@ Simple Plugin 是一个为 NexusPHP 打造的简单插件示例，演示了如�
 - **元素未找到处理**：当目标位置元素不存在时，自动使用默认位置
 - **响应式设计**：适配不同的页面结构和设备
 
+## 截图
+<img width="1277" height="491" alt="201118" src="https://github.com/user-attachments/assets/24cdb7c4-9948-4b0b-b5b3-a15d0ed4c9ea" />
+<img width="1303" height="682" alt="201203" src="https://github.com/user-attachments/assets/1acb2481-bebb-406f-8704-140dd289cd6f" />
+
+
 ## 安装说明
 
 ### 方法一：使用安装脚本
